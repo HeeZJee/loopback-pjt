@@ -1,6 +1,18 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "memory",
+    "file": "lb-pjt.json"
+  },
+  "mongod": {
+    "host": "localhost",
+    "port": 27010,
+    "url": "mongodb://localhost:27017/lb-pjt",
+    "database": "lb-pjt",
+    "password": "abc123",
+    "name": "mongod",
+    "user": "dt",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }
