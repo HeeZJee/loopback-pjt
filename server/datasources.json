@@ -1,16 +1,26 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory",
-    "file": "lb-pjt.json"
+    "connector": "memory"
   },
   "mongod": {
     "host": "localhost",
     "port": 27010,
     "url": "mongodb://localhost:27017/lb-pjt",
     "database": "lb-pjt",
-    "password": "abc123",
+    "password": "",
     "name": "mongod",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "mongoAtlas": {
+    "host": "lb-pjt.vnzgi.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://lb-pjt.vnzgi.mongodb.net/lb-pjt?retryWrites=true&w=majority",
+    "database": "lb-pjt",
+    "password": "abc1234",
+    "name": "mongoAtlas",
     "user": "dt",
     "useNewUrlParser": true,
     "connector": "mongodb"

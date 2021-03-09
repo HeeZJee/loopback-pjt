@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongoAtlas"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": false
   },
   "City": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": true
   },
   "Region": {
-    "dataSource": "db",
+    "dataSource": "mongoAtlas",
     "public": true
   }
 }
