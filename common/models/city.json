@@ -21,5 +21,31 @@
     }
   },
   "acls": [],
-  "methods": {}
+  "methods": {
+    "populate": {
+      "accepts": [
+        {
+          "arg": "count",
+          "type": "number",
+          "required": true,
+          "description": "number of people to populate"
+        }
+      ],
+      "return": [
+        {
+          "arg": "count",
+          "type": "number",
+          "root": true,
+          "description": "result of population"
+        }
+      ],
+      "description": "population of city",
+      "http": [
+        {
+          "path": "/populate",
+          "verb": "post"
+        }
+      ]
+    }
+  }
 }
